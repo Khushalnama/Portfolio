@@ -32,7 +32,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwwzMV_JnxqbOi1F7fx98
         msg.innerHTML = "Message Sent Successfully"
         setTimeout(function(){
             msg.innerHTML = ""
-        },5000)
+        },1000)
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))
