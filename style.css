@@ -294,6 +294,11 @@ form .btn2{
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
+}
+
+form .btn2:hover{
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
 .copyright{
